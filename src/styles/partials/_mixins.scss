@@ -1,0 +1,32 @@
+@mixin flexStyles($direction, $alignment){
+    display: flex;
+    justify-content: $alignment;
+    align-items:$alignment;
+    flex-direction: $direction;
+}
+
+@mixin textStyles($textSize,$lineHeight){
+    font-size: $textSize;
+    line-height: $lineHeight;
+    font-family: $font-family;
+}
+
+@mixin darkBackground{
+    background-color: #323232;
+    background-position:center;
+    background-size:cover;
+}
+
+@mixin lightBackground{
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin footerStyles($textSize,$lineHeight,$font-weights){
+    font-size: $textSize;
+    font-weight:$font-weights;
+    line-height: $lineHeight;
+    font-family: $font-family;
+    padding-bottom: 2rem;
+}

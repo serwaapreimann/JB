@@ -1,0 +1,56 @@
+@media (min-width: 769px) {
+  .header--section {
+    display: flex;
+    flex-direction: row;
+    background: rgba(50, 226, 205, 0.34);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    height: 10rem;
+    width: 100vw;
+    position: fixed;
+    margin-top: -30rem;
+  }
+  .header--section-img {
+    width: 10rem;
+    height: auto;
+    padding-top: 1rem;
+    background-image: none !important;
+    background: none !important;
+    position: fixed;
+  }
+  .header--section-logo {
+    flex: 1;
+  }
+  .header--section-nav {
+    display: flex;
+  }
+  .header--section-navlinks {
+    display: flex;
+    padding-top: 7rem;
+  }
+  .header--section-navlink {
+    list-style: none;
+    padding: 0rem 3rem 0rem 3rem;
+  }
+  .header--section-navlink a {
+    color: aliceblue;
+    font-family: "Poiret One", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .header--section-img {
+    width: 35vw;
+    height: auto;
+    background-image: none !important;
+    background: none !important;
+    position: fixed;
+    flex: 1;
+  }
+  .header--section {
+    display: flex;
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=Header.css.map */
